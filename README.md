@@ -14,7 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+<h4 align="center">Visitor's count :eyes:</h4>
 
+<p align="center"><img src="https://profile-counter.glitch.me/{MathsionYang}/count.svg" alt="MathsionYang :: Visitor's Count" /></p>
 
 <p align="center"><img src="https://github-profile-trophy.vercel.app/?username=MathsionYang&theme=flat&column=9" alt="logo" height="160" align="center" style="margin: auto; margin-bottom: 20px;" /></p>
 -->
