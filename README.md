@@ -1,4 +1,4 @@
-[![MathsionYang —— 把 AI 能力做成可复用、可调用、可验证的系统](https://raw.githubusercontent.com/MathsionYang/MathsionYang/main/assets/header.svg?v=2)](https://github.com/MathsionYang)
+[![MathsionYang —— 把 AI 能力做成可复用、可调用、可验证的系统](https://raw.githubusercontent.com/MathsionYang/MathsionYang/main/assets/banner.svg)](https://github.com/MathsionYang)
 
 **在武汉写 C++ 和 GIS，近两年把力气挪到 Skill / MCP / Agent 的工程化上。**
 **相信一项能力要被封装、被调用、被验证，才算真的存在 —— 下面每个项目都在公开里一点点长大。**
