@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" fill="none">
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="1200" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1018"/>
+      <stop offset="0.6" stop-color="#0c0f15"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="c-glow" cx="0.18" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#3d8ee8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#3d8ee8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c-bar" x1="0" y1="0" x2="0" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d8ee8" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#4a9eff"/>
+      <stop offset="1" stop-color="#3d8ee8" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="230" fill="url(#c-bg)"/>
+  <rect width="1200" height="230" fill="url(#c-glow)"/>
+  <rect x="0" y="0" width="3" height="230" fill="url(#c-bar)"/>
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="10" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <text x="60" y="60" fill="#5aa2f0" fill-opacity="0.8" font-size="11" font-weight="600" letter-spacing="3.4"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">VS CODE EXTENSION</text>
+  <text x="60" y="106" fill="#f2f6fc" font-size="32" font-weight="700" letter-spacing="0.5"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">CodexChat</text>
+  <text x="60" y="136" fill="#7e8b9f" font-size="13.5" letter-spacing="0.3"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">把散在 .codex 里的 Codex 历史会话，按项目归好、随时接回去</text>
+
+  <g font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11.5">
+    <rect x="60" y="158" width="106" height="27" rx="13.5" fill="#4a9eff" fill-opacity="0.1" stroke="#4a9eff" stroke-opacity="0.32"/>
+    <text x="113" y="176" fill="#7cb4ee" text-anchor="middle">按 cwd 归类</text>
+    <rect x="178" y="158" width="86" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="221" y="176" fill="#8c99ab" text-anchor="middle">本地优先</text>
+    <rect x="276" y="158" width="96" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="324" y="176" fill="#8c99ab" text-anchor="middle">token 统计</text>
+  </g>
+
+  <!-- 右侧：侧边栏会话列表 + 分支 -->
+  <g>
+    <rect x="812" y="38" width="216" height="154" rx="10" fill="#0f1620" stroke="#4a9eff" stroke-opacity="0.3"/>
+    <rect x="812" y="38" width="216" height="26" rx="10" fill="#4a9eff" fill-opacity="0.08"/>
+    <rect x="828" y="48" width="60" height="6" rx="3" fill="#4a9eff" fill-opacity="0.55"/>
+    <g>
+      <circle cx="830" cy="84" r="4" fill="#4a9eff" fill-opacity="0.8"/>
+      <rect x="844" y="80" width="96" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.4"/>
+      <rect x="828" y="98" width="150" height="20" rx="6" fill="#4a9eff" fill-opacity="0.14"/>
+      <circle cx="838" cy="108" r="3" fill="#4a9eff"/>
+      <rect x="848" y="105" width="82" height="6" rx="3" fill="#9ac4f5" fill-opacity="0.75"/>
+      <circle cx="830" cy="136" r="4" fill="#ffffff" fill-opacity="0.2"/>
+      <rect x="844" y="132" width="112" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.16"/>
+      <circle cx="830" cy="158" r="4" fill="#ffffff" fill-opacity="0.2"/>
+      <rect x="844" y="154" width="72" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.12"/>
+      <rect x="828" y="172" width="128" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.07"/>
+    </g>
+    <!-- 分支图标 -->
+    <circle cx="1074" cy="66" r="6.5" stroke="#4a9eff" stroke-opacity="0.7"/>
+    <circle cx="1074" cy="108" r="6.5" stroke="#4a9eff" stroke-opacity="0.7"/>
+    <circle cx="1102" cy="86" r="6.5" stroke="#4a9eff" stroke-opacity="0.45"/>
+    <path d="M1074 72.5v29" stroke="#4a9eff" stroke-opacity="0.5"/>
+    <path d="M1074 86h21" stroke="#4a9eff" stroke-opacity="0.4" stroke-dasharray="3 3"/>
+    <rect x="1054" y="128" width="66" height="22" rx="11" stroke="#4a9eff" stroke-opacity="0.35"/>
+    <text x="1087" y="143" fill="#6ea9e6" font-size="10" text-anchor="middle" letter-spacing="0.6"
+          font-family="'JetBrains Mono', Consolas, monospace">main</text>
+  </g>
+</svg>

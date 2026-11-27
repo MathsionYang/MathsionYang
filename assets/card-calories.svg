@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" fill="none">
+  <defs>
+    <linearGradient id="k-bg" x1="0" y1="0" x2="1200" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12100d"/>
+      <stop offset="0.6" stop-color="#0d0f13"/>
+      <stop offset="1" stop-color="#0b0d11"/>
+    </linearGradient>
+    <radialGradient id="k-glow" cx="0.18" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#ff9f5a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ff9f5a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="k-bar" x1="0" y1="0" x2="0" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9f5a" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#ffab5e"/>
+      <stop offset="1" stop-color="#ff9f5a" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="230" fill="url(#k-bg)"/>
+  <rect width="1200" height="230" fill="url(#k-glow)"/>
+  <rect x="0" y="0" width="3" height="230" fill="url(#k-bar)"/>
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="10" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <text x="60" y="60" fill="#ffab5e" fill-opacity="0.82" font-size="11" font-weight="600" letter-spacing="3.4"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">FOOD JOURNAL</text>
+  <text x="60" y="106" fill="#f7f4ef" font-size="32" font-weight="700" letter-spacing="0.5"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">热量日历 · Calories Today</text>
+  <text x="60" y="136" fill="#8f8880" font-size="13.5" letter-spacing="0.3"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">一餐一张照片，记下份量与热量区间，在日历里看见每天的饮食节奏</text>
+
+  <g font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11.5">
+    <rect x="60" y="158" width="94" height="27" rx="13.5" fill="#ff9f5a" fill-opacity="0.1" stroke="#ff9f5a" stroke-opacity="0.32"/>
+    <text x="107" y="176" fill="#eaa877" text-anchor="middle">拍照识别</text>
+    <rect x="166" y="158" width="94" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="213" y="176" fill="#968f86" text-anchor="middle">份量估算</text>
+    <rect x="272" y="158" width="94" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="319" y="176" fill="#968f86" text-anchor="middle">成员目标</text>
+  </g>
+
+  <!-- 右侧：日历格 -->
+  <g>
+    <rect x="796" y="40" width="284" height="150" rx="12" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.055"/>
+    <g fill="#ffffff" fill-opacity="0.055">
+      <rect x="809" y="62" width="30" height="24" rx="5"/>
+      <rect x="847" y="62" width="30" height="24" rx="5"/>
+      <rect x="885" y="62" width="30" height="24" rx="5"/>
+      <rect x="923" y="62" width="30" height="24" rx="5"/>
+      <rect x="961" y="62" width="30" height="24" rx="5"/>
+      <rect x="999" y="62" width="30" height="24" rx="5"/>
+      <rect x="1037" y="62" width="30" height="24" rx="5"/>
+    </g>
+    <g fill="#ff9f5a" fill-opacity="0.26">
+      <rect x="809" y="94" width="30" height="24" rx="5"/>
+      <rect x="885" y="94" width="30" height="24" rx="5"/>
+      <rect x="961" y="94" width="30" height="24" rx="5"/>
+      <rect x="1037" y="94" width="30" height="24" rx="5"/>
+      <rect x="847" y="126" width="30" height="24" rx="5"/>
+      <rect x="923" y="126" width="30" height="24" rx="5"/>
+      <rect x="999" y="126" width="30" height="24" rx="5"/>
+    </g>
+    <g fill="#ffffff" fill-opacity="0.05">
+      <rect x="809" y="158" width="30" height="24" rx="5"/>
+      <rect x="847" y="158" width="30" height="24" rx="5"/>
+      <rect x="923" y="158" width="30" height="24" rx="5"/>
+      <rect x="961" y="158" width="30" height="24" rx="5"/>
+      <rect x="999" y="158" width="30" height="24" rx="5"/>
+      <rect x="1037" y="158" width="30" height="24" rx="5"/>
+    </g>
+    <rect x="885" y="158" width="30" height="24" rx="5" fill="#ff9f5a" fill-opacity="0.16" stroke="#ff9f5a" stroke-opacity="0.6"/>
+    <circle cx="900" cy="170" r="3.4" fill="#ff9f5a"/>
+  </g>
+</svg>

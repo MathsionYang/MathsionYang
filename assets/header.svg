@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" fill="none">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0c11"/>
+      <stop offset="0.55" stop-color="#0d1017"/>
+      <stop offset="1" stop-color="#11141c"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.12" cy="0.15" r="0.75">
+      <stop offset="0" stop-color="#d4b064" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#d4b064" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hglow2" cx="0.92" cy="0.9" r="0.6">
+      <stop offset="0" stop-color="#4a7fd4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#4a7fd4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hline" x1="72" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4b064" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#d4b064" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hpin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4b064" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#d4b064" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="hgrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#ffffff" stroke-opacity="0.028" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#hbg)"/>
+  <rect width="1200" height="360" fill="url(#hgrid)"/>
+  <rect width="1200" height="360" fill="url(#hglow)"/>
+  <rect width="1200" height="360" fill="url(#hglow2)"/>
+
+  <!-- 左侧竖线 -->
+  <rect x="0" y="0" width="3" height="360" fill="url(#hpin)"/>
+
+  <!-- 姓名 -->
+  <text x="72" y="118" fill="#f2f4f8" font-size="46" font-weight="700" letter-spacing="1"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">杨洋 · MathsionYang</text>
+
+  <rect x="72" y="146" width="488" height="1" fill="url(#hline)"/>
+
+  <!-- 一句话定位 -->
+  <text x="72" y="196" fill="#d4b064" font-size="19" font-weight="600" letter-spacing="0.5"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">把 AI 能力做成可复用、可调用、可验证的系统。</text>
+  <text x="72" y="226" fill="#7d879c" font-size="14" letter-spacing="0.3"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">Building systems that make AI capabilities reusable, callable and verifiable.</text>
+
+  <!-- 标签 -->
+  <g font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12.5" letter-spacing="1.2">
+    <rect x="72" y="256" width="86" height="30" rx="15" fill="#d4b064" fill-opacity="0.1" stroke="#d4b064" stroke-opacity="0.32"/>
+    <text x="115" y="276" fill="#d9bd7e" text-anchor="middle">C++</text>
+    <rect x="168" y="256" width="106" height="30" rx="15" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="221" y="276" fill="#aab3c5" text-anchor="middle">FastMCP</text>
+    <rect x="284" y="256" width="88" height="30" rx="15" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="328" y="276" fill="#aab3c5" text-anchor="middle">Agent</text>
+    <rect x="382" y="256" width="76" height="30" rx="15" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="420" y="276" fill="#aab3c5" text-anchor="middle">GIS</text>
+    <rect x="468" y="256" width="120" height="30" rx="15" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="528" y="276" fill="#aab3c5" text-anchor="middle">TypeScript</text>
+  </g>
+
+  <text x="72" y="322" fill="#626c80" font-size="12" letter-spacing="1.4"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">WUHAN · CHINA　/　唯有梦想不可辜负</text>
+
+  <!-- 右侧：Skill → MCP → Agent 三层 -->
+  <g>
+    <rect x="856" y="76" width="262" height="208" rx="14" fill="#ffffff" fill-opacity="0.022" stroke="#ffffff" stroke-opacity="0.075"/>
+
+    <text x="884" y="102" fill="#4e5768" font-size="9.5" font-weight="600" letter-spacing="2.8"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">CAPABILITY LAYERS</text>
+
+    <line x1="900" y1="140" x2="900" y2="236" stroke="#d4b064" stroke-opacity="0.34" stroke-width="1" stroke-dasharray="2 4"/>
+
+    <!-- step 1 -->
+    <circle cx="900" cy="140" r="4" fill="#d4b064"/>
+    <circle cx="900" cy="140" r="8.5" fill="#d4b064" fill-opacity="0.14"/>
+    <text x="918" y="138" fill="#cfd6e4" font-size="13.5" font-weight="600" letter-spacing="2.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">SKILL</text>
+    <text x="918" y="155" fill="#5f6a80" font-size="11" letter-spacing="0.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">沉淀方法</text>
+
+    <!-- step 2 -->
+    <circle cx="900" cy="188" r="4" fill="#d4b064"/>
+    <circle cx="900" cy="188" r="8.5" fill="#d4b064" fill-opacity="0.14"/>
+    <text x="918" y="186" fill="#cfd6e4" font-size="13.5" font-weight="600" letter-spacing="2.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">MCP</text>
+    <text x="918" y="203" fill="#5f6a80" font-size="11" letter-spacing="0.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">封装能力</text>
+
+    <!-- step 3 -->
+    <circle cx="900" cy="236" r="4" fill="#d4b064"/>
+    <circle cx="900" cy="236" r="8.5" fill="#d4b064" fill-opacity="0.14"/>
+    <text x="918" y="234" fill="#cfd6e4" font-size="13.5" font-weight="600" letter-spacing="2.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">AGENT</text>
+    <text x="918" y="251" fill="#5f6a80" font-size="11" letter-spacing="0.4"
+          font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">编排执行</text>
+  </g>
+</svg>

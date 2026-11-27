@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 34" width="1200" height="34" fill="none">
+  <defs>
+    <linearGradient id="d-codexchat" x1="0" y1="17" x2="1200" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a9eff" stop-opacity="0"/>
+      <stop offset="0.24" stop-color="#4a9eff" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#4a9eff" stop-opacity="0.62"/>
+      <stop offset="0.76" stop-color="#4a9eff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4a9eff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="16.5" width="1200" height="1" fill="url(#d-codexchat)"/>
+  <rect x="578" y="12" width="10" height="10" rx="2" transform="rotate(45 583 17)" fill="#4a9eff" fill-opacity="0.85"/>
+  <rect x="594" y="16" width="12" height="2" rx="1" fill="#4a9eff" fill-opacity="0.25"/>
+  <rect x="570" y="16" width="12" height="2" rx="1" fill="#4a9eff" fill-opacity="0.25"/>
+</svg>
