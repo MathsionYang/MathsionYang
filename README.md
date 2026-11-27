@@ -67,7 +67,7 @@
 
 ## 📚 长期在做的事
 
-- **把能力工程化**：专家经验封成 Skill，外部工具封成 MCP，再把两者编排成能自证的 Agent。
+- **能力工程化**：专家经验封成 Skill，外部工具封成 MCP，再把两者编排成能自证的 Agent。
 - **写成中文**：《AI 能力工程：从 Skill、MCP 到 Agent》系列，[开源在 GitHub](https://github.com/MathsionYang/ai-capability-engineering)，也在 [CSDN](https://blog.csdn.net/sinat_28228747?type=blog) 与 [掘金](https://juejin.cn/user/3647513603343131/posts) 连载。
 - **在 GIS × Agent 的交集上做实验**：地图学与地理信息系统硕士出身，想让空间数据的取数、质检、出图也能被 Agent 稳稳接管。
 
