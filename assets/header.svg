@@ -13,8 +13,9 @@
       <stop offset="0" stop-color="#4a7fd4" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#4a7fd4" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="hline" x1="72" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="hline" x1="72" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#d4b064" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#d4b064" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#d4b064" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="hpin" x1="0" y1="0" x2="0" y2="1">
@@ -34,11 +35,14 @@
   <!-- 左侧竖线 -->
   <rect x="0" y="0" width="3" height="360" fill="url(#hpin)"/>
 
-  <!-- 姓名 -->
-  <text x="72" y="118" fill="#f2f4f8" font-size="46" font-weight="700" letter-spacing="1"
-        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">杨洋 · MathsionYang</text>
+  <!-- 名义：只用 ID，不写真名 -->
+  <text x="72" y="74" fill="#5a6478" font-size="10.5" font-weight="600" letter-spacing="3.4"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">C++ / GIS / AI CAPABILITY ENGINEERING</text>
 
-  <rect x="72" y="146" width="488" height="1" fill="url(#hline)"/>
+  <text x="72" y="122" fill="#f2f4f8" font-size="46" font-weight="700" letter-spacing="1"
+        font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">MathsionYang</text>
+
+  <rect x="72" y="150" width="448" height="1" fill="url(#hline)"/>
 
   <!-- 一句话定位 -->
   <text x="72" y="196" fill="#d4b064" font-size="19" font-weight="600" letter-spacing="0.5"
